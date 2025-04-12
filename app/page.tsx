@@ -7,6 +7,7 @@ import { CarCard } from './components/CarCard';
 import { CarFilters } from './components/CarFilters';
 import { CarDialog } from './components/CarDialog';
 import { ThemeToggle } from './components/ThemeToggle';
+import { FooterContainer } from './components/FooterContainer';
 import { Button } from '@/components/ui/button';
 import { useWishlist } from './hooks/useWishlist';
 import { Heart } from 'lucide-react';
