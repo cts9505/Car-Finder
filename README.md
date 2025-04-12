@@ -20,26 +20,94 @@
 
 ## Tech Stack
 
-- **Framework**: [Next.js](https://nextjs.org/) (React framework for server-side rendering and static site generation)
-- **Language**: [TypeScript](https://www.typescriptlang.org/) (for type-safe JavaScript)
-- **UI Components**: [Shadcn UI](https://ui.shadcn.com/) (based on [Radix UI](https://www.radix-ui.com/) for accessible, customizable components)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) (utility-first CSS framework)
-- **Icons**: [Lucide React](https://lucide.dev/) (for lightweight, customizable icons)
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **UI Components**: [Shadcn UI](https://ui.shadcn.com/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
 - **State Management**: React Hooks (`useState`, `useEffect`, `useCallback`) with `localStorage`
 - **Build Tool**: [Node.js](https://nodejs.org/) with `npm`
 - **Linting & Formatting**: [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/)
 
 ## Prerequisites
 
-Before running the project, ensure you have the following installed:
-
 - **Node.js**: Version 18.x or 20.x (LTS recommended)
-- **npm**: Version 8.x or higher (comes with Node.js)
-- A modern web browser (e.g., Chrome, Firefox)
+- **npm**: Version 8.x or higher
+- A modern web browser
 
 ## Installation
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/car-finder.git
+   git clone https://github.com/cts9505/car-finder.git
    cd car-finder
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Set Up Environment Variables**:
+   The app uses localStorage and doesn’t require external APIs by default. For API features:
+   ```env
+   GEMINI_API_KEY=your-api-key
+   ```
+
+4. **Run the Development Server**:
+   ```bash
+   npm run dev
+   ```
+
+5. **Build for Production**:
+   ```bash
+   npm run build
+   npm run start
+   ```
+
+## Project Structure
+
+Refer to the full structure in the original content.
+
+## Usage
+
+Instructions on browsing, filtering, sorting, managing wishlist, theme toggle, and pagination.
+
+## Contributing
+
+1. Fork the repo
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your feature"
+   ```
+4. Push and create a PR:
+   ```bash
+   git push origin feature/your-feature
+   ```
+5. Lint and format:
+   ```bash
+   npm run lint
+   npm run format
+   ```
+
+## Future Improvements
+
+Ideas include API integration, authentication, advanced filters, etc.
+
+## Troubleshooting
+
+Covers common issues with server startup, wishlist, filters, and more.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Acknowledgments
+
+Built with ❤️ by Chaitanya Shinde.
+Thanks to Shadcn UI and Radix UI.
+Inspired by modern car marketplace platforms.
